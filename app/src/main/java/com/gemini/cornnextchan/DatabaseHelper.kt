@@ -5,11 +5,11 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-class DatabaseHelper(private val context: Context):
+class DatabaseHelper(context: Context):
             SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION){
 
     companion object{
-        private const val DATABASE_NAME = "UserDatabase.db"
+        private const val DATABASE_NAME = "userDatabase.db"
         private const val DATABASE_VERSION = 1
         private const val TABLE_NAME = "data"
         private const val COLUMN_ID ="id"
