@@ -15,8 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.confirmBtn.setOnClickListener {
-            binding.numberInput.freezesText
-
 
         }
 
