@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.confirmBtn.setOnClickListener {
+            "today is a good day, I will teach a good lesson"
 
         }
 
